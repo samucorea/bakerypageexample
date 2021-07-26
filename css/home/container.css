@@ -1,0 +1,29 @@
+.container{
+    width:70%;
+    margin: 3em auto;
+    font-family: 'PT Sans', sans-serif;
+    text-align:center;
+}
+.container p{
+    width:70%;
+    text-align: justify;
+    margin: auto;
+}
+
+.container > div{
+    display:flex;
+    flex-wrap: wrap;
+}
+.container > div > div:nth-of-type(2){
+    width:70%;
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+#content-image-1{
+    max-width:300px;
+    flex-grow: 2;
+}
+
