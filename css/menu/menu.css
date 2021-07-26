@@ -1,0 +1,35 @@
+@import url('../common/common.css');
+
+
+.grid-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: "nav nav nav"
+    "title title title"
+    "menuitem image menuitem"
+    "footer footer footer";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+
+    
+}
+
+nav{
+    grid-area: nav;
+}
+
+.title{
+    grid-area: title;
+}
+.menu{
+    grid-area: menuitem;
+}
+
+.img-menu{
+    grid-area: image;
+}
+
+footer{
+    grid-area: footer;
+}
