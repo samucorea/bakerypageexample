@@ -1,0 +1,62 @@
+.grid-container{
+    width:100vw;
+    height:100vh;
+    max-width: 100%;
+    display:grid;
+    grid-template: "nav"
+                    "cities"
+                    "map"
+                    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 8vh 40vh auto 8vh;
+}
+
+nav{
+    grid-area: nav;
+}
+
+.cities{
+    grid-area: cities;
+    background-color:black;
+    opacity:0.9;
+    color:#FFF;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.cities > div{
+    width:50%;
+   
+}
+
+.cities h1{
+    cursor:pointer;
+}
+h1{
+    text-align: center;
+}
+
+.cities > div div{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.map{
+    grid-area:map;
+}
+
+footer{
+    grid-area:footer;
+}
+
+@media screen and (max-width:768px) {
+    h1{
+        font-size:2rem;
+
+    }
+    .cities >div div{
+        flex-direction: column;
+    }
+    
+}

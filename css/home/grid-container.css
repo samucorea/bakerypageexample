@@ -2,11 +2,9 @@
 @import url('../common/common.css');
 @import url('../common/footer.css');
 
-
 .grid-container{
     max-width:100vw;
     min-height:100vh;
-    max-width: 100%;
     display:grid;
     grid-template: "nav"
                    "jumbotron"
@@ -26,6 +24,7 @@ nav{
     background-image: url('../../images/home/jumbotronimage.jpg');
     background-position: center center;
     background-size:cover;
+
     position:relative;
 }
 
