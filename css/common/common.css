@@ -3,6 +3,10 @@
     padding:0;
 }
 
+html{
+    overflow-y: overlay;
+}
+
 :root{
     --bodyfont: 'Titilium Web', sans-serif;
 }
@@ -17,7 +21,6 @@ h2{
     font-family: var(--bodyfont);
     letter-spacing: 2px;
     font-size: 2rem;
-    margin:3rem;
 }
 
 
