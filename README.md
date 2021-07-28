@@ -18,3 +18,5 @@ their great documentation it wasn't too hard. I could make buttons that would mo
 ## Conclusion
 
 Overall, it was a nice project to make for my portfolio and also for my learning on web development.
+
+Figma design: https://www.figma.com/file/ok6msbEVsaZe4Q3bkmI0np/bakerylandingpage-Copy
