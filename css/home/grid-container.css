@@ -1,0 +1,75 @@
+
+@import url('../common/common.css');
+
+
+.grid-container{
+    max-width:100vw;
+    height:100vh;
+    max-width: 100%;
+    display:grid;
+    grid-template: "nav  nav"
+    "jumbotron jumbotron"
+    "contact  contact"
+    "footer  footer";
+    grid-template-columns: auto;
+    grid-template-rows: 8vh 80% auto 8%;
+ 
+}
+
+nav{
+    grid-area: nav;
+}
+
+.jumbotron{
+    grid-area: jumbotron;
+    background-image: url('../../images/home/jumbotronimage.jpg');
+    background-position: center center;
+    background-size:cover;
+    position:relative;
+}
+
+.jumbotron-content{
+    color:#FFF;
+    position:absolute;
+    top:50%;
+    left:25%;
+
+    transform: translateY(-50%);
+}
+   
+
+.contact{
+    grid-area: contact;
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    background-color:black;
+    opacity:0.9;
+    color:white;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.svg-display{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    h1{
+        font-size:2.5rem;
+    }
+}

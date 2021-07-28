@@ -3,18 +3,18 @@ nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    height:8vh;
     font-family: 'PT Sans', sans-serif;
 }
 
 
 .logo{
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size:1.3rem;
+    letter-spacing: 4px;
+    font-size:1.5rem;
 }
 
 .nav-links{
+    font-size:1.1rem;
     margin:0;
     display:flex;
     width:30%;

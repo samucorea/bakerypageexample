@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage - Panaderia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
@@ -14,30 +14,47 @@
 
     <link rel="stylesheet" href="css/common/normalize.css">
     <link rel="stylesheet" href="css/common/nav.css">
-    <link rel="stylesheet" href="css/home/jumbotron.css">
-    <link rel="stylesheet" href="css/home/container.css">
+    <link rel="stylesheet" href="css/home/grid-container.css">
 </head>
 
 <body>
-    <nav>
-        <!-- https://www.alamy.com/bakery-landing-page-vector-template-bakeshop-bakehouse-website-interface-idea-with-flat-illustrations-professional-bakers-with-fresh-bread-homepag-image340665440.html -->
-        <div class="logo">
-            <h4>Panadería</h4>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Contact Us</a></li>
+    <div class="grid-container">
+        <nav>
+            <div class="logo">
+                <h4>Panadería</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">About Us</a></li>
 
-        </ul>
+            </ul>
 
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <div class="jumbotron">
+            <div class="jumbotron-content">
+                <h1>Panaderia el buen cocinero</h1>
+                <h1>Lorem ipsum</h1>
+            </div>
         </div>
-    </nav>
+
+        <div class="contact">
+            <h2>CONTACT US</h2>
+            <h2 class="svg-display"><img src="./images/home/svg/phone_black.svg"> 222-222-2222</h2>
+            <h2 class="svg-display"><img src="./images//home//svg//email_black.svg"> panaderia@gmail.com</h2>
+        </div>
+
+        <footer>
+            <div>Copyright Panaderia 2021</div>
+        </footer>
+    </div>
 
 
 
