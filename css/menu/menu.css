@@ -1,0 +1,102 @@
+@import url('../common/common.css');
+@import url('../common/footer.css');
+
+
+img{
+    max-width:100%;
+}
+ .grid-container{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+      grid-template: "nav nav nav"
+    "title title title"
+    "breads image pastries"
+    "footer footer footer";
+    grid-template-columns: 12fr auto 12fr;
+    grid-template-rows: 8vh 12fr 12fr 8vh;
+    row-gap: 2rem;
+
+    
+}
+
+nav{
+    grid-area: nav;
+}
+
+.title{
+    grid-area: title;
+    background-image: url('../../images/menu/title-image.jpg');
+    background-position: center center;
+    background-size: cover;
+    color:#FFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.breads-menu{
+    grid-area: breads;
+}
+
+.pastries-menu{
+    grid-area: pastries;
+}
+
+.menu-title{
+    text-align: center;
+    padding-top:1.5rem;
+    text-decoration: underline;
+}
+
+table{
+    width:100%;
+    table-layout: fixed;
+}
+td{
+    text-align: center;
+    font-family: var(--bodyfont);
+    font-size:1.2rem;   
+}
+
+td:nth-of-type(2n + 1){ /* First column of table */
+    font-weight: bold;
+}
+.img-menu{
+    grid-area: image;
+    padding-top:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    grid-area: footer;
+} 
+
+@media screen and (max-width:768px){
+    .grid-container{
+
+        grid-template: "nav"
+                        "title"
+                        "breads"
+                        "image"
+                        "pastries"
+                        "footer";
+        grid-template-columns: auto;
+        grid-template-rows: 8vh 40vh auto auto auto 8vh;
+        row-gap: 1rem;
+        
+    }
+
+    .img-menu{
+        padding-top:0rem;
+    }
+    td{
+        padding:2rem;
+    }
+
+    h2{
+        padding-top:1rem;
+    }
+}
