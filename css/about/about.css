@@ -25,6 +25,11 @@ nav{
 .content > div{
     width:30%;
     margin-left:20rem;
+    background-color:#FAE8D6;
+    padding:3rem;
+    margin-top:2rem;
+    border-radius: 5px;
+    box-shadow: -2rem 2rem rgba(0, 0, 0, 0.308);
 }
 
 .content > div h1{
@@ -48,7 +53,8 @@ footer{
 
 @media screen and (max-width:768px) {
     .content > div{
-        width:80%;
-        margin-left:2rem;
+        width:100%;
+        margin-left:0;
+        box-shadow: none;
     }
 }
