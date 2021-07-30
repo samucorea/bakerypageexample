@@ -1,4 +1,4 @@
-# Example of a bakery webpage.
+# Example of a bakery webpage made in html/css and pure javascript.
 
 This was a project to simulate what a client looking for a page for their bakery would want as a final result. I designed this webpage on figma,
 and then converted it to html/css following a grid-based layout. On this project I learnt several things:
