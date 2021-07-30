@@ -1,5 +1,5 @@
 function initMap() {
-    // The location of Uluru
+
 
     const mapDiv = document.querySelector('.map')
 
@@ -8,12 +8,12 @@ function initMap() {
     const stodmo = { lat: 18.8, lng: -69 }
 
     const locations = [newyork, washington, stodmo]
-    // The map, centered at Uluru
+
     let map = new google.maps.Map(mapDiv, {
         zoom: 4,
         center: newyork,
     });
-    // The marker, positioned at Uluru
+
 
     locations.forEach(location => {
         new google.maps.Marker({
